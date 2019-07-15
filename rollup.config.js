@@ -30,7 +30,7 @@ export default {
     postcss({
       plugins: [
         cssprops({
-          preserve: false,
+          preserve: true,
         }),
       ],
       modules: true,
